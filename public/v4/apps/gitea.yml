@@ -1,8 +1,6 @@
 captainVersion: 4
 services:
     $$cap_appname:
-        depends_on:
-            - $$cap_appname-db
         image: gitea/gitea:$$cap_gitea_version
         volumes:
             - $$cap_appname-data:/data
