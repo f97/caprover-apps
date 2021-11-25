@@ -1,9 +1,11 @@
-## Repo for CapRover One Click Apps
+# Skayo's CapRover One-Click-Apps
 
-### How to create a one-click app (as of v1.8.0):
-First, have a look at [this simple example](https://github.com/caprover/one-click-apps/blob/master/public/v4/apps/privatebin.yml). Now, read on for more details:
+This is my personal collection of one-click-apps that I use on my [CapRover](https://caprover.com/) instance.  
 
+Feel free to use my them on your own server!  
+Just add `https://caprover-oneclickapps.skayo.dev` to your 3rd party repositories at the bottom of the one-click-app page.
 
+<<<<<<< HEAD
 - Find/create a docker-compose file for the app you're interested in.
 - Add `captainVersion: 4` to the very top of the yaml file.
 - Add this section to the end of the yaml file:
@@ -77,3 +79,8 @@ To create your own repository:
 - Now you can host the static content placed in `./dist` directory anywhere you want, the official repo uses github pages to publish the content. Make sure to update [CNAME](https://github.com/caprover/one-click-apps/blob/master/public/CNAME) to your own URL if you decide to do so.
 
 Here is a good example: [Skayo's CapRover One-Click-Apps](https://github.com/Skayo/CapRover-One-Click-Apps)
+=======
+Some of the apps in my collection are improved or modified versions from the original repo.  
+You can identify my personal apps with the `(Skayo)` suffix.  
+Maybe I will propose some of my changes to the original one-click-app repo, but it's not my priority.
+>>>>>>> f4bfa8490d48c5b30199cb916a1aba1277715296
