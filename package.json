@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "caprover-one-click-apps",
   "version": "1.0.0",
   "description": "One Click App Repository for CapRover",
@@ -26,28 +25,4 @@
     "prettier": "^2.0.5",
     "yaml": "^1.10.0"
   }
-=======
-	"name": "@skayo/caprover-one-click-apps",
-	"version": "1.0.0",
-	"description": "My Personal One-Click-App Repository for CapRover",
-	"scripts": {
-		"build": "rimraf ./dist && node ./scripts/build-one-click-apps.js && node ./scripts/build-one-click-apps-from-v4.js",
-		"validate": "node ./scripts/validate-apps.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/SkayoCapRover-One-Click-Apps.git"
-	},
-	"author": "Skayo (https://skayo.dev)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Skayo/CapRover-One-Click-Apps/issues"
-	},
-	"homepage": "https://github.com/Skayo/CapRover-One-Click-Apps",
-	"devDependencies": {
-		"fs-extra": "^10.0.0",
-		"rimraf": "^3.0.2",
-		"yaml": "^1.10.2"
-	}
->>>>>>> f4bfa8490d48c5b30199cb916a1aba1277715296
 }
