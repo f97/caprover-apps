@@ -43,5 +43,5 @@ jobs:
                     branch: gh-pages
                     folder: dist
                     git-config-name: f97
-                    git-config-email: admin@f97.xyz
+                    git-config-email: huynhduckhoan@gmail.com
                     clean: true
