@@ -47,7 +47,7 @@ caproverOneClickApp:
                 Specify the version tag to install.  
                 Click [here](https://hub.docker.com/r/vaultwarden/server/tags) for a list of available tags.
             defaultValue: alpine
-            validRegex: /^(?:\d+\.\d+\.\d+(?:\.\d+)?)(?:-alpine)?(?:-(?:arm|amd)(?:64|32)(?:v\d+)?)?$/
+            validRegex: /^(?:\d+\.\d+\.\d+(?:\.\d+)?)(?:-alpine)?(?:-(?:arm|amd)(?:64|32)(?:v\d+)?)|alpine?$/
 
         # Variable for time zone
         -   id: $$cap_tz
