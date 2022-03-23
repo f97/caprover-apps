@@ -6,7 +6,7 @@ captainVersion: 4
 caproverOneClickApp:
 
     # App name
-    displayName: vaultwarden (f97)
+    displayName: @f97/vaultwarden
 
     # Description displayed on the app list
     description: |-
